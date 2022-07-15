@@ -57,13 +57,13 @@
             "src/functions/parse_metadata_response.php"
         ],
         "psr-4": {
-            "Facile\\OpenIDClient\\": "src/"
+            "Marcing\\OpenIDClient\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Facile\\OpenIDClientTest\\": "tests/",
-            "Facile\\OpenIDClient\\ConformanceTest\\": "conformance/src/"
+            "Marcing\\OpenIDClientTest\\": "tests/",
+            "Marcing\\OpenIDClient\\ConformanceTest\\": "conformance/src/"
         }
     },
     "require-dev": {
