@@ -106,8 +106,8 @@ final class AuthorizationService
         if (! array_key_exists('nonce', $params) && 'code' !== ($params['response_type'] ?? '')) {
             throw new InvalidArgumentException('nonce MUST be provided for implicit and hybrid flows');
         }
-
-        return $endpointUri . '?' . http_build_query($params);
+		
+        return $endpointUri . '?' . http_build_query($params, '', null,  PHP_QUERY_RFC3986);
     }
 
     /**
