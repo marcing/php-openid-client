@@ -1,5 +1,5 @@
 {
-    "name": "facile-it/php-openid-client",
+    "name": "marcing/php-openid-client",
     "description": "OpenID (OIDC) Client",
     "type": "library",
     "license": "MIT",
